@@ -1,0 +1,51 @@
+a{
+	color: #72ae22;
+}
+a:hover{
+	color: #8DC63F;
+}
+
+#header{
+	background: #141414;
+	border-bottom: 2px solid #8DC63F;
+}
+
+.nav-bar{
+	display: none;
+}
+
+#banner{
+	height: 100%;
+	width: 100%;
+	background: #eee;
+}
+
+#footer{
+	height: 100%;
+	width: 100%;
+	background: #eee;
+}
+.button{
+	background: #8DC63F;
+	border: #72ae22;
+}
+
+.button:hover{
+	background: #72ae22;
+	border: #72ae22;
+}
+#cta{
+	height: 100%;
+	width: 100%;
+	background: #777;
+}
+.panel{
+	margin-bottom: 0;
+	background: none;
+	border: none;
+}
+.banner{
+	padding-bottom: none;
+	margin-top: 10px;
+}
+
