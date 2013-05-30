@@ -114,7 +114,6 @@ a:hover{
 }
 .pic{
 	top: 2px;
-	
 }
 
 .list li{
@@ -151,17 +150,20 @@ i {
 	padding: 15px 0;
 }
 
-.colormunch{
-	margin-top: 20px;
-}
-.spectra{
-	margin-top: 14px;
-}
 .kuler{
 	margin-top: 6px;
 }
+.colormunch{
+	margin-top: 20px;
+	padding-left: 35px;
+}
 .air{
 	margin-top: 6px;
+	padding-left: 53px;
+}
+.spectra{
+	margin-top: 14px;
+	left: -10px;
 }
 .info, .what{
 	padding-left: 40px;
