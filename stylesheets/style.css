@@ -25,10 +25,12 @@ a:hover{
 	background-repeat: repeat;
 }
 
+
 #footer{
 	height: 100%;
 	width: 100%;
-	background: #eee;
+	background: #222;
+	color: #ccc;
 }
 .button{
 	background: #8DC63F;
@@ -90,4 +92,12 @@ a:hover{
 	padding: 0;
 	margin-top: 50px;
 }
+.section1{
+	background: #eee;
+	height: 100%;
+	width: 100%;
+}
+.section1 .row{
+	background: #F9F9F9;
 
+}
