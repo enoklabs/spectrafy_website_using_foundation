@@ -65,3 +65,12 @@ a:hover{
 .spectrafy-cta h4{
 	padding-bottom: 20px; 
 }
+.ribbon-center{
+	background-image: url("../images/ribbon-center.png");
+	background-repeat: no-repeat;
+	height: 99px;
+	position: relative;
+	top: -16px;
+	width: 1061px;
+	left: -75px;
+}
