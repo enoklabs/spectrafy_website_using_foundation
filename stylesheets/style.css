@@ -17,7 +17,9 @@ a:hover{
 #banner{
 	height: 100%;
 	width: 100%;
-	background: #eee;
+	background: #8DC63f;
+	background-image: url("../images/geometric.png");
+	background-repeat: repeat;
 }
 
 #footer{
@@ -34,10 +36,15 @@ a:hover{
 	background: #72ae22;
 	border: #72ae22;
 }
-#cta{
+#message{
 	height: 100%;
 	width: 100%;
-	background: #777;
+	background: #373737;
+	color: white;
+}
+#message h4{
+	color: white;
+	text-align: center;
 }
 .panel{
 	margin-bottom: 0;
@@ -50,4 +57,11 @@ a:hover{
 }
 .logo{
 	text-align: center;
+}
+.spectrafy-cta{
+	text-align: center;
+	width: 45%;
+}
+.spectrafy-cta h4{
+	padding-bottom: 20px; 
 }
