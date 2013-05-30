@@ -49,7 +49,7 @@ a:hover{
 	background-image: url("../images/ribbon-straight.png");
 	color: white;
 }
-#message h4{
+#message h3{
 	color: white;
 	text-align: center;
 }
@@ -73,7 +73,7 @@ a:hover{
 	padding-bottom: 20px;
 	color: white; 
 	padding-left: 25px;
-	font-size: 1.5em;
+	font-size: 2em;
 }
 .spectrafy-cta .spec_logo{
 	padding-left: 23px;
@@ -88,7 +88,7 @@ a:hover{
 	width: 1061px;
 	left: -75px;
 }
-.ribbon-center h4{
+.ribbon-center h3{
 	padding-top: 7px;
 }
 .mac{
@@ -107,6 +107,9 @@ a:hover{
 .what-is{
 	margin-top: 40px;
 }
+.what p{
+	font-size: 1.2em;
+}
 .features{
 	top: 40px;
 	padding-bottom: 80px;
@@ -114,11 +117,13 @@ a:hover{
 .pic{
 	top: 2px;
 }
-
+.app-img{
+	top: 35px;
+}
 .list li{
 	font-size: 1.2em;
 	list-style: none;
-	padding-bottom: 5px;
+	padding-bottom: 8px;
 }
 .list i{
 	font-size: 1.3em;
@@ -131,7 +136,7 @@ i {
 	left: -40px;
 	color: white;
 }
-.download-button i{
+.download-button i, .download-button2 i{
 	color: white;
 	font-size: large;
 }
