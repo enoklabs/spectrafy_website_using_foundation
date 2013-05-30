@@ -215,10 +215,10 @@ form.custom div.custom.dropdown ul li.selected:hover:after { color: #000; }
 form.custom div.custom.dropdown ul.show { display: block; }
 form.custom .custom.disabled { background-color: #ddd; }
 
-/* Correct FF custom dropdown height */
+/* Correct FF custom dropdown height 
 @-moz-document url-prefix() { form.custom div.custom.dropdown a.selector { height: 30px; } }
 
-.lt-ie9 form.custom div.custom.dropdown a.selector { height: 30px; }
+.lt-ie9 form.custom div.custom.dropdown a.selector { height: 30px; }*/
 
 /* The Grid ---------------------- */
 .row { width: 940px; max-width: 100%; min-width: 768px; margin: 0 auto; }
@@ -323,7 +323,7 @@ img { -ms-interpolation-mode: bicubic; }
 #map_canvas img, .map_canvas img { max-width: none!important; }
 
 /* Nicolas Gallagher's micro clearfix */
-.row { *zoom: 1; }
+/*.row { *zoom: 1; }*/
 .row:before, .row:after { content: ""; display: table; }
 .row:after { clear: both; }
 
@@ -441,8 +441,8 @@ input[type=submit].button, button.button { -webkit-appearance: none; }
 
 @media only screen and (max-width: 767px) { .button { display: block; }
   button.button, input[type="submit"].button { width: 100%; padding-left: 0; padding-right: 0; } }
-/* Correct FF button padding */
-@-moz-document url-prefix() { button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner { border: none; padding: 0; }
+/* Correct FF button padding 
+@-moz-document url-prefix() { button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner { border: none; padding: 0; }*/
   input[type="submit"].tiny.button { padding: 3px 10px 4px; }
   input[type="submit"].small.button { padding: 5px 14px 6px; }
   input[type="submit"].button, input[type=submit].medium.button { padding: 8px 20px 9px; }
