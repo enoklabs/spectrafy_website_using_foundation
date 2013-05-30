@@ -98,6 +98,7 @@ a:hover{
 }
 .section1{
 	background: #eee;
+	background-image: url("../images/bg.jpg");
 	height: 100%;
 	width: 100%;
 }
@@ -137,11 +138,27 @@ i {
 	font-size: large;
 }
 .more{
-	background: red;
-	margin-bottom: 50px;
 	padding-bottom: 30px;
-	border-radius: 0 0 20px 20px;
 }
 .adobe{
-	background: #444;
+	background: -webkit-linear-gradient(#e3e3e3 7.62%, #898989 100%);
+	border-top: 1px solid white;
+	box-shadow: 0px 2px 7px rgba(0,0,0,0.47);
+	padding: 15px 0;
+}
+
+.colormunch{
+	margin-top: 20px;
+}
+.spectra{
+	margin-top: 14px;
+}
+.kuler{
+	margin-top: 6px;
+}
+.air{
+	margin-top: 6px;
+}
+.info, .what{
+	padding-left: 40px;
 }
